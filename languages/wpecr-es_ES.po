@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar Extension: Registration (wpecr)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-20 20:34+0100\n"
+"PO-Revision-Date: 2015-11-20 20:34+0100\n"
+"Last-Translator: e-colori.com <wordpress@e-colori.com>\n"
+"Language-Team: The Events Calendar Extension: Registration <wordpress@e-"
+"colori.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-event-registration.php:62 admin/class-event-registration-admin.php:117
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-event-registration-admin.php:113
+msgid "Event Registration"
+msgstr "Registro del evento"
+
+#: admin/class-event-registration-admin.php:115
+#: admin/partials/signupsheet-display.php:2
+msgid "Registrations"
+msgstr "Registros"
+
+#: admin/partials/event-registration-admin-display.php:23
+msgid "Settings › 'The Events Calendar Extension: Registration'"
+msgstr "Ajustes › 'The Events Calendar Extension: Registration'"
+
+#: admin/partials/event-registration-admin-display.php:29
+msgid "Email sender options"
+msgstr "Opciones del remitente del email"
+
+#: admin/partials/event-registration-admin-display.php:34
+msgid "\"From\" Name"
+msgstr "“Desde” Nombre"
+
+#: admin/partials/event-registration-admin-display.php:42
+msgid "\"From\" Email Address"
+msgstr "“Desde” Email"
+
+#: admin/partials/event-registration-admin-display.php:50
+msgid "Terms URL"
+msgstr "URL del aviso legal"
+
+#: admin/partials/event-registration-admin-display.php:54
+msgid "Create a page with your terms and conditions and instert the URL here."
+msgstr "Crea una página con tu aviso legal y pon la URL aquí"
+
+#: admin/partials/event-registration-admin-display.php:59
+msgid "Visibility terms"
+msgstr "Visibilidad del aviso legal"
+
+#: admin/partials/event-registration-admin-display.php:65
+msgid "Show term link on registration page"
+msgstr "Mostrar el aviso legal en la página del registro"
+
+#: admin/partials/event-registration-admin-display.php:72
+msgid "Email Footer Text"
+msgstr "Texto del pie del Email"
+
+#: admin/partials/event-registration-admin-display.php:75
+msgid ""
+"Enter here the text and your contact details you want to show at the end of "
+"the registration email"
+msgstr ""
+"Inserta aquí el texto y los detalles de contacto que quieras mostrar al "
+"final del email de registro"
+
+#: admin/partials/event-registration-admin-display.php:82
+msgid "Bank account details"
+msgstr "Datos de la cuenta del banco"
+
+#: admin/partials/event-registration-admin-display.php:87
+msgid "Currency"
+msgstr "Divisa"
+
+#: admin/partials/event-registration-admin-display.php:95
+msgid "Visibility bank details"
+msgstr "Visibilidad de los datos bancarios"
+
+#: admin/partials/event-registration-admin-display.php:101
+msgid "Show bank details in email"
+msgstr "Mostrar los datos bancarios en el Email"
+
+#: admin/partials/event-registration-admin-display.php:108
+msgid "Paymet Text"
+msgstr "Texto de Paymet"
+
+#: admin/partials/event-registration-admin-display.php:111
+msgid ""
+"Enter here the text to explain how to pay before showing the bank details"
+msgstr ""
+"Inserta el texto explicando cómo pagar antes de mostrar os datos bacarios"
+
+#: admin/partials/event-registration-admin-display.php:117
+msgid "Bank name"
+msgstr "Nombre del banco"
+
+#: admin/partials/event-registration-admin-display.php:125
+#: public/class-event-registration-public.php:342
+msgid "Remittee"
+msgstr "Consignatario"
+
+#: admin/partials/event-registration-admin-display.php:133
+#: public/class-event-registration-public.php:343
+msgid "IBAN"
+msgstr "IBAN"
+
+#: admin/partials/event-registration-admin-display.php:141
+#: public/class-event-registration-public.php:344
+msgid "Swift / BIC Code"
+msgstr "Código Swift / BIC"
+
+#: admin/partials/event-registration-admin-display.php:151
+msgid "Extra"
+msgstr "Extra"
+
+#: admin/partials/event-registration-admin-display.php:156
+msgid "Show some love?"
+msgstr "¿Mostrar un poco de amor?"
+
+#: admin/partials/event-registration-admin-display.php:162
+msgid ""
+"Yes! Hundreds of free hours have gone into making this free plugin, show "
+"your support and add a small link to our plugin website at the bottom of "
+"your form. "
+msgstr ""
+"Si quiero! Cientos de horas libres ponimos a hacer este plugin gratuito, "
+"mostrar tu apoyo y añadir un pequeño enlace a nuestro sitio web del plug-in "
+"en la parte inferior del formulario."
+
+#: admin/partials/event-registration-admin-display.php:170
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/partials/event-registration-admin-display.php:177
+msgid "Need Help?"
+msgstr "¿Necesitas ayuda?"
+
+#: admin/partials/event-registration-admin-display.php:178
+msgid ""
+"You have questions or a feature request for The Events Calendar Extension: "
+"Registration?"
+msgstr ""
+"¿Tienes alguna pregunta o sugerencia para The Events Calendar Extension: "
+"Registration?"
+
+#: admin/partials/event-registration-admin-display.php:179
+#: admin/partials/signupsheet-display.php:6
+msgid "Visit the plugin page for all posibilities and the PRO Version"
+msgstr ""
+"Visita la página del plugin y descubre todas las posibilidades y la version "
+"PRO"
+
+#: admin/partials/signupsheet-display.php:5
+msgid ""
+"In the PRO version of our plugin, you can see who registered for your events."
+msgstr ""
+"En la versión PRO de nuestro plugin, se puede ver quien se registro por tus "
+"eventos."
+
+#: includes/class-event-registration-activator.php:26
+msgid ""
+"If you withdraw from a training until 4 weeks before the start we have to "
+"charge a processing fee of 50,- €. After this period, the full course fee is "
+"payable plus the costs for accommodation, or you have to provide a "
+"replacement participant."
+msgstr ""
+"Si te das de baja de un curso hasta 4 semanas antes del inicio tenemos que "
+"cobrar una cuota de gestión de 50 €. Después de este período, el precio a "
+"pagar será el del curso completo más los gastos de alojamiento, o "
+"proporcionarnos un sustituto."
+
+#: includes/class-event-registration-activator.php:27
+msgid "Enter your contact details here. Name, address, phone, email, url, etc."
+msgstr ""
+"Escribe aquí tus datos de contacto. Nombre, dirección, teléfono, email, url, "
+"etc."
+
+#: includes/class-event-registration-activator.php:29
+msgid ""
+"Your registration for a seminar or training is not mandatory until the "
+"seminar fee has been paid into our bank account (free seminars excluded)."
+msgstr ""
+"Tu inscripción para el seminario o curso no estará aceptada hasta que la "
+"cuota del mismo se haya pagado en nuestra cuenta bancaria (seminarios "
+"gratuitos excluidos)."
+
+#: public/class-event-registration-public.php:265
+msgid "Register now"
+msgstr "REGISTRARME AHORA"
+
+#: public/class-event-registration-public.php:292
+msgid "We sent you an email with your registration details."
+msgstr "Te hemos enviado un email con tus datos de registro."
+
+#: public/class-event-registration-public.php:293
+msgid "Return to Home"
+msgstr "Volver al inicio"
+
+#: public/class-event-registration-public.php:296
+msgid "Sorry, your registration was not sent. Please get in contact with us."
+msgstr ""
+"Lo sentimos, tu registro no se ha enviado. Por favor ponte en contacto con "
+"nosotros."
+
+#: public/class-event-registration-public.php:317
+#, php-format
+msgid "Registration: %1$s"
+msgstr "Confirmación de registro al evento: %1$s"
+
+#: public/class-event-registration-public.php:318
+msgid "(automatic reply)"
+msgstr "(respuesta automática)"
+
+#: public/class-event-registration-public.php:320
+#, php-format
+msgid "Thank you %1$s, <br/><br/> your registration was successfull."
+msgstr "Gracias %1$s, <br/><br/> tu registro se ha completado con éxito."
+
+#: public/class-event-registration-public.php:340
+msgid "Please transfer the invoice total to:"
+msgstr "Por favor transfiere el total de la factura a:"
+
+#: public/class-event-registration-public.php:345
+msgid "Reason for payment"
+msgstr "Motivo del pago"
+
+#: public/class-event-registration-public.php:346
+msgid "Amount"
+msgstr "Importe"
+
+#: public/class-event-registration-public.php:347
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: public/class-event-registration-public.php:426
+msgid "Please select"
+msgstr "Por favor selecciona"
+
+#: public/partials/event-registration-public-display.php:17
+msgid "I hereby register for the seminar."
+msgstr "Por este medio me inscribo en el curso."
+
+#: public/partials/event-registration-public-display.php:30
+msgid "First Name"
+msgstr "Nombre"
+
+#: public/partials/event-registration-public-display.php:34
+msgid "Last Name"
+msgstr "Apellido"
+
+#: public/partials/event-registration-public-display.php:38
+msgid "Company"
+msgstr "Empresa"
+
+#: public/partials/event-registration-public-display.php:42
+msgid "Email"
+msgstr "Email"
+
+#: public/partials/event-registration-public-display.php:46
+msgid "Address"
+msgstr "Dirección"
+
+#: public/partials/event-registration-public-display.php:50
+msgid "Postcode"
+msgstr "Código Postal"
+
+#: public/partials/event-registration-public-display.php:54
+msgid "City"
+msgstr "Ciudad"
+
+#: public/partials/event-registration-public-display.php:58
+msgid "Country"
+msgstr "Pais"
+
+#: public/partials/event-registration-public-display.php:78
+msgid "Phone"
+msgstr "Teléfono"
+
+#: public/partials/event-registration-public-display.php:79
+msgid "e.g. +49221998877"
+msgstr "ej. +34913456788"
+
+#: public/partials/event-registration-public-display.php:83
+msgid "Seminar"
+msgstr "Evento"
+
+#: public/partials/event-registration-public-display.php:86
+msgid "Your message"
+msgstr "Tu mensaje"
+
+#: public/partials/event-registration-public-display.php:93
+msgid "I accept the"
+msgstr "Acepto"
+
+#: public/partials/event-registration-public-display.php:93
+msgid "terms and conditions"
+msgstr "el aviso legal"
+
+#: public/partials/event-registration-public-display.php:108
+msgid "Register"
+msgstr "Registro"

@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar Extension: Registration (wpecr)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-20 20:33+0100\n"
+"PO-Revision-Date: 2015-11-20 20:33+0100\n"
+"Last-Translator: e-colori.com <wordpress@e-colori.com>\n"
+"Language-Team: wp-event-registration <wordpress@e-colori.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-event-registration.php:62 admin/class-event-registration-admin.php:117
+msgid "Settings"
+msgstr "Instelling"
+
+#: admin/class-event-registration-admin.php:113
+msgid "Event Registration"
+msgstr "Event Aanmelding"
+
+#: admin/class-event-registration-admin.php:115
+#: admin/partials/signupsheet-display.php:2
+msgid "Registrations"
+msgstr "Aanmeldings"
+
+#: admin/partials/event-registration-admin-display.php:23
+msgid "Settings › 'The Events Calendar Extension: Registration'"
+msgstr "Instellingen > 'The Events Calendar Extension: Registration'"
+
+#: admin/partials/event-registration-admin-display.php:29
+msgid "Email sender options"
+msgstr "Email afzender opties"
+
+#: admin/partials/event-registration-admin-display.php:34
+msgid "\"From\" Name"
+msgstr "\"Van\" naam"
+
+#: admin/partials/event-registration-admin-display.php:42
+msgid "\"From\" Email Address"
+msgstr "\"Van\" E-mail adres"
+
+#: admin/partials/event-registration-admin-display.php:50
+msgid "Terms URL"
+msgstr "Voorwaarden URL"
+
+#: admin/partials/event-registration-admin-display.php:54
+msgid "Create a page with your terms and conditions and instert the URL here."
+msgstr "Maak een pagina met uw voorwaarden en instert hier de URL."
+
+#: admin/partials/event-registration-admin-display.php:59
+msgid "Visibility terms"
+msgstr "Zichtbaarheid voorwaarden"
+
+#: admin/partials/event-registration-admin-display.php:65
+msgid "Show term link on registration page"
+msgstr "Toon term link op de registratie pagina"
+
+#: admin/partials/event-registration-admin-display.php:72
+msgid "Email Footer Text"
+msgstr "E-mail Footer Text"
+
+#: admin/partials/event-registration-admin-display.php:75
+msgid ""
+"Enter here the text and your contact details you want to show at the end of "
+"the registration email"
+msgstr ""
+"Vul hier de tekst en uw contactgegevens je wilt laten zien aan het eind van "
+"de registratie e-mail"
+
+#: admin/partials/event-registration-admin-display.php:82
+msgid "Bank account details"
+msgstr "Bankgegevens"
+
+#: admin/partials/event-registration-admin-display.php:87
+msgid "Currency"
+msgstr "Valuta"
+
+#: admin/partials/event-registration-admin-display.php:95
+msgid "Visibility bank details"
+msgstr "Zichtbaarheid bankgegevens"
+
+#: admin/partials/event-registration-admin-display.php:101
+msgid "Show bank details in email"
+msgstr "Toon bankgegevens in e-mail"
+
+#: admin/partials/event-registration-admin-display.php:108
+msgid "Paymet Text"
+msgstr "Paymet tekst"
+
+#: admin/partials/event-registration-admin-display.php:111
+msgid ""
+"Enter here the text to explain how to pay before showing the bank details"
+msgstr ""
+"Vul hier de tekst uit te leggen hoe om te betalen voordat met de bankgegevens"
+
+#: admin/partials/event-registration-admin-display.php:117
+msgid "Bank name"
+msgstr "Bank naam"
+
+#: admin/partials/event-registration-admin-display.php:125
+#: public/class-event-registration-public.php:342
+msgid "Remittee"
+msgstr "Transfer ontvanger"
+
+#: admin/partials/event-registration-admin-display.php:133
+#: public/class-event-registration-public.php:343
+msgid "IBAN"
+msgstr "IBAN"
+
+#: admin/partials/event-registration-admin-display.php:141
+#: public/class-event-registration-public.php:344
+msgid "Swift / BIC Code"
+msgstr "Swift / BIC Code"
+
+#: admin/partials/event-registration-admin-display.php:151
+msgid "Extra"
+msgstr "Extra"
+
+#: admin/partials/event-registration-admin-display.php:156
+msgid "Show some love?"
+msgstr "Toon wat liefde?"
+
+#: admin/partials/event-registration-admin-display.php:162
+msgid ""
+"Yes! Hundreds of free hours have gone into making this free plugin, show "
+"your support and add a small link to our plugin website at the bottom of "
+"your form. "
+msgstr ""
+"Ja! Honderden vrije uren zijn gegaan in het maken van deze gratis plugin, "
+"toon uw steun en voeg een kleine link naar onze plugin website aan de "
+"onderkant van uw formulier."
+
+#: admin/partials/event-registration-admin-display.php:170
+msgid "Save"
+msgstr "Sparen"
+
+#: admin/partials/event-registration-admin-display.php:177
+msgid "Need Help?"
+msgstr "Hulp Nodig?"
+
+#: admin/partials/event-registration-admin-display.php:178
+msgid ""
+"You have questions or a feature request for The Events Calendar Extension: "
+"Registration?"
+msgstr ""
+"Heeft u vragen of een functie verzoek om The Events Calendar Extension: "
+"Registration?"
+
+#: admin/partials/event-registration-admin-display.php:179
+#: admin/partials/signupsheet-display.php:6
+msgid "Visit the plugin page for all posibilities and the PRO Version"
+msgstr "Bezoek de plugin pagina en bekijk alle mogelijkheden  en de PRO-versie"
+
+#: admin/partials/signupsheet-display.php:5
+msgid ""
+"In the PRO version of our plugin, you can see who registered for your events."
+msgstr ""
+"In de PRO versie van onze plugin, kunt u zien wie er voor uw evenementen "
+"geregistreerd."
+
+#: includes/class-event-registration-activator.php:26
+msgid ""
+"If you withdraw from a training until 4 weeks before the start we have to "
+"charge a processing fee of 50,- €. After this period, the full course fee is "
+"payable plus the costs for accommodation, or you have to provide a "
+"replacement participant."
+msgstr ""
+"Bij afmelding tot 4 weken voor de training worden alleen de "
+"administratiekosten á EUR 50.- in rekening gebracht. Daarna moet het volle "
+"bedrag plus de onkosten voor het centrum betaald worden, tenzij er een "
+"vervangende deelnemer is."
+
+#: includes/class-event-registration-activator.php:27
+msgid "Enter your contact details here. Name, address, phone, email, url, etc."
+msgstr "Vul hier uw contactgegevens. Naam, adres, telefoon, e-mail, url, enz."
+
+#: includes/class-event-registration-activator.php:29
+msgid ""
+"Your registration for a seminar or training is not mandatory until the "
+"seminar fee has been paid into our bank account (free seminars excluded)."
+msgstr ""
+"De aanmelding is pas geldig nadat de trainingskosten zijn overgemaakt op "
+"onderstaand rekeningnummer  (gratis seminars uitgesloten)."
+
+#: public/class-event-registration-public.php:265
+msgid "Register now"
+msgstr "Nu Aanmelden"
+
+#: public/class-event-registration-public.php:292
+msgid "We sent you an email with your registration details."
+msgstr "Wij sturen u een e-mail met uw aanmelding details."
+
+#: public/class-event-registration-public.php:293
+msgid "Return to Home"
+msgstr "Keer terug naar home"
+
+#: public/class-event-registration-public.php:296
+msgid "Sorry, your registration was not sent. Please get in contact with us."
+msgstr ""
+"Sorry, uw e-mail aanmelding wat niet verzonden. Neem dan contact met ons op."
+
+#: public/class-event-registration-public.php:317
+#, php-format
+msgid "Registration: %1$s"
+msgstr "Aanmelding: %1$s"
+
+#: public/class-event-registration-public.php:318
+msgid "(automatic reply)"
+msgstr "(autoantwoord)"
+
+#: public/class-event-registration-public.php:320
+#, php-format
+msgid "Thank you %1$s, <br/><br/> your registration was successfull."
+msgstr "Dankjewel %1$s, <br/><br/> Uw aanmelding was succesvol."
+
+#: public/class-event-registration-public.php:340
+msgid "Please transfer the invoice total to:"
+msgstr "Maak s.v.p. het gehele bedrag over op:"
+
+#: public/class-event-registration-public.php:345
+msgid "Reason for payment"
+msgstr "Reden voor de betaling"
+
+#: public/class-event-registration-public.php:346
+msgid "Amount"
+msgstr "Bedrag"
+
+#: public/class-event-registration-public.php:347
+msgid "Thank you!"
+msgstr "Dank je wel!"
+
+#: public/class-event-registration-public.php:426
+msgid "Please select"
+msgstr "Selecteer aub"
+
+#: public/partials/event-registration-public-display.php:17
+msgid "I hereby register for the seminar."
+msgstr "Hiermee meld ik mij aan voor het seminar."
+
+#: public/partials/event-registration-public-display.php:30
+msgid "First Name"
+msgstr "Voornaam"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:34
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: public/partials/event-registration-public-display.php:38
+msgid "Company"
+msgstr "Vennootschap"
+
+#: public/partials/event-registration-public-display.php:42
+msgid "Email"
+msgstr "Email"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:46
+msgid "Address"
+msgstr "Adres"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:50
+msgid "Postcode"
+msgstr "Postcode"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:54
+msgid "City"
+msgstr "Plaats"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:58
+msgid "Country"
+msgstr "Land"
+
+# @ wpsmnt_
+#: public/partials/event-registration-public-display.php:78
+msgid "Phone"
+msgstr "Telefoon"
+
+#: public/partials/event-registration-public-display.php:79
+msgid "e.g. +49221998877"
+msgstr "bv +4312345678"
+
+#: public/partials/event-registration-public-display.php:83
+msgid "Seminar"
+msgstr "Seminar"
+
+#: public/partials/event-registration-public-display.php:86
+msgid "Your message"
+msgstr "Jouw bericht"
+
+#: public/partials/event-registration-public-display.php:93
+msgid "I accept the"
+msgstr "Ik accepteer de"
+
+#: public/partials/event-registration-public-display.php:93
+msgid "terms and conditions"
+msgstr "algemene voorwaarden"
+
+#: public/partials/event-registration-public-display.php:108
+msgid "Register"
+msgstr "Aanmelding"

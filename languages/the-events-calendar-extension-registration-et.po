@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar Extension: Registration (wpecr)\n"
+"POT-Creation-Date: 2016-10-06 22:48+0300\n"
+"PO-Revision-Date: 2016-10-14 09:09+0300\n"
+"Language-Team: e-colori.com <wordpress@e-colori.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et_EE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-event-registration.php:62
+msgid "Settings"
+msgstr "Sätted"
+
+#: admin/class-event-registration-admin.php:121
+msgid "Event Registration"
+msgstr "Sündmuse Registreerimine"
+
+#: admin/partials/event-registration-admin-display.php:22
+msgid "Settings › 'The Events Calendar Extension: Registration'"
+msgstr "Sätted › 'The Events Calendar laiendus: Registreerimine'"
+
+#: admin/partials/event-registration-admin-display.php:29
+msgid "Email sender options"
+msgstr "E-posti saatja valikud"
+
+#: admin/partials/event-registration-admin-display.php:34
+msgid "\"From\" Name"
+msgstr "\"Kellelt\" Nimi"
+
+#: admin/partials/event-registration-admin-display.php:42
+msgid "\"From\" Email Address"
+msgstr "\"Kellelt\" E-posti aadress"
+
+#: admin/partials/event-registration-admin-display.php:50
+msgid "Terms URL"
+msgstr "Tingimuste URL"
+
+#: admin/partials/event-registration-admin-display.php:54
+msgid "Create a page with your terms and conditions and instert the URL here."
+msgstr "Loo leht oma tingimustega ja sisesta URL siia."
+
+#: admin/partials/event-registration-admin-display.php:59
+msgid "Email Footer Text"
+msgstr "E-posti jaluse tekst"
+
+#: admin/partials/event-registration-admin-display.php:62
+msgid ""
+"Enter here the text and your contact details you want to show at the end of "
+"the registration email"
+msgstr ""
+"Sisesta siia tekst ja oma kontaktandmed, mida sa tahad näidata pärast e-"
+"posti registreerimist"
+
+#: admin/partials/event-registration-admin-display.php:69
+msgid "Bank account details"
+msgstr "Pangakonto andmed"
+
+#: admin/partials/event-registration-admin-display.php:74
+msgid "Currency"
+msgstr "Valuuta"
+
+#: admin/partials/event-registration-admin-display.php:82
+msgid "Visibility bank details"
+msgstr "Näita panga andmeid"
+
+#: admin/partials/event-registration-admin-display.php:88
+msgid "Show bank details in email"
+msgstr "Näita panga andmeid e-postis"
+
+#: admin/partials/event-registration-admin-display.php:95
+msgid "Paymet Text"
+msgstr "Makse tekst"
+
+#: admin/partials/event-registration-admin-display.php:98
+msgid ""
+"Enter here the text to explain how to pay before showing the bank details"
+msgstr ""
+"Sisesta siia tekst, mis aitab enne panga andmete kuvamist aru saada kuidas "
+"maksta"
+
+#: admin/partials/event-registration-admin-display.php:104
+msgid "Bank name"
+msgstr "Panga nimi"
+
+#: admin/partials/event-registration-admin-display.php:112
+#: public/class-event-registration-public.php:336
+msgid "Remittee"
+msgstr "Ülekande saaja"
+
+#: admin/partials/event-registration-admin-display.php:120
+#: public/class-event-registration-public.php:337
+msgid "IBAN"
+msgstr "IBAN"
+
+#: admin/partials/event-registration-admin-display.php:128
+#: public/class-event-registration-public.php:338
+msgid "Swift / BIC Code"
+msgstr "Swift / BIC kood"
+
+#: admin/partials/event-registration-admin-display.php:137
+msgid "Save"
+msgstr "Salvesta"
+
+#: admin/partials/event-registration-admin-display.php:144
+msgid "Need Help?"
+msgstr "Vajad abi?"
+
+#: admin/partials/event-registration-admin-display.php:145
+msgid ""
+"You have questions or a feature request for The Events Calendar Extension: "
+"Registration?"
+msgstr ""
+"On tekkinud küsimus või \"The Events Calendar\" laiendus: Registreerimine "
+"funktsiooni kohta päring?"
+
+#: admin/partials/event-registration-admin-display.php:146
+msgid "Visit the plugin page and see all posibilities"
+msgstr "Külasta plugina lehta ja tutvu kõikide võimalustega"
+
+#: admin/partials/event-registration-admin-display.php:148
+msgid "Stay connected, subscribe for news!"
+msgstr "Ole ühenduses, liitu info saamiseks!"
+
+#: includes/class-event-registration-activator.php:35
+msgid ""
+"If you withdraw from a training until 4 weeks before the start we have to "
+"charge a processing fee of 50,- €. After this period, the full course fee is "
+"payable plus the costs for accommodation, or you have to provide a "
+"replacement participant."
+msgstr ""
+"Kui sa loobud vähem alates 4 nädalat enne kursuse algust, tuleb maksta "
+"kohustuslik menetlust tasu 50€. Pärast seda perioodi saab tasuda täiskursuse "
+"eest (lisandub teenustasu) , või tuleb otsida asendusosaleja."
+
+#: includes/class-event-registration-activator.php:36
+msgid "Enter your contact details here. Name, address, phone, email, url, etc."
+msgstr ""
+"Sisesta enda kontaktandmed siia. Nimi, aadress, telefon, e-post, url, jms."
+
+#: includes/class-event-registration-activator.php:38
+msgid ""
+"Your registration for a seminar or training is not mandatory until the "
+"seminar fee has been paid into our bank account (free seminars excluded)."
+msgstr ""
+"Sinu registreerimine kursusele või treeninguks ei ole kohustuslik enne makse "
+"tasumist meie pangakontole (Tasuta kursused on väistatud)."
+
+#: public/class-event-registration-public.php:260
+msgid "Register now"
+msgstr "Registreeri kohe"
+
+#: public/class-event-registration-public.php:287
+msgid "We sent you an email with your registration details."
+msgstr "Saadame sulle e-kirja sinu registreerimise andmetega."
+
+#: public/class-event-registration-public.php:290
+msgid "Sorry, your registration was not sent. Please get in contact with us."
+msgstr ""
+"Vabandame, sinu registreerimist ei saadetud. Palun võta meiega ühendust."
+
+#: public/class-event-registration-public.php:311
+#, php-format
+msgid "Registration: %1$s"
+msgstr "Registreerimine: %1$s"
+
+#: public/class-event-registration-public.php:312
+msgid "(automatic reply)"
+msgstr "(automaatne vastus)"
+
+#: public/class-event-registration-public.php:314
+#, php-format
+msgid "Thank you %1$s, <br/><br/> your registration was successfull."
+msgstr "Tänan %1$s, <br/><br/> sinu registreerimine oli edukas!"
+
+#: public/class-event-registration-public.php:334
+msgid "Please transfer the invoice total to:"
+msgstr "Palun kanna arve kogusumma:"
+
+#: public/class-event-registration-public.php:339
+msgid "Reason for payment"
+msgstr "Makse põhjus"
+
+#: public/class-event-registration-public.php:340
+msgid "Amount"
+msgstr "Summa"
+
+#: public/class-event-registration-public.php:341
+msgid "Thank you!"
+msgstr "Täname!"
+
+#: public/class-event-registration-public.php:420
+msgid "Please select"
+msgstr "Palun vali"
+
+#: public/partials/event-registration-public-display.php:16
+msgid "I hereby register for the seminar."
+msgstr "Käesolevaga registreerin end kursusele."
+
+#: public/partials/event-registration-public-display.php:25
+msgid "First Name"
+msgstr "Eesnimi"
+
+#: public/partials/event-registration-public-display.php:29
+msgid "Last Name"
+msgstr "Perekonnanimi"
+
+#: public/partials/event-registration-public-display.php:33
+msgid "Company"
+msgstr "Ettevõte"
+
+#: public/partials/event-registration-public-display.php:37
+msgid "Email"
+msgstr "E-post"
+
+#: public/partials/event-registration-public-display.php:41
+msgid "Address"
+msgstr "Aadress"
+
+#: public/partials/event-registration-public-display.php:45
+msgid "Postcode"
+msgstr "Postiindeks"
+
+#: public/partials/event-registration-public-display.php:49
+msgid "City"
+msgstr "Linn"
+
+#: public/partials/event-registration-public-display.php:53
+msgid "Country"
+msgstr "Riik"
+
+#: public/partials/event-registration-public-display.php:73
+msgid "Phone"
+msgstr "Telefon"
+
+#: public/partials/event-registration-public-display.php:74
+msgid "e.g. +49221998877"
+msgstr "näiteks: +37256478904"
+
+#: public/partials/event-registration-public-display.php:78
+msgid "Seminar"
+msgstr "Kursus"
+
+#: public/partials/event-registration-public-display.php:81
+msgid "Your message"
+msgstr "Sinu sõnum"
+
+#: public/partials/event-registration-public-display.php:86
+msgid "I accept the"
+msgstr "Nõustun"
+
+#: public/partials/event-registration-public-display.php:86
+msgid "terms and conditions"
+msgstr "reeglite ja tingimustega"
+
+#: public/partials/event-registration-public-display.php:99
+msgid "Register"
+msgstr "Registreerin"
