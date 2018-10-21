@@ -80,15 +80,16 @@ $data .= '
 				$locale_lang = substr( get_locale(), 3, 2 );
 
 				//get the countries by choosen language
-				foreach( $this->all_countries( true, true ) as $country ):
+				foreach( $this->all_countries( true, true ) as $country ) :
 
-				if($country['value']==$locale_lang && !isset($_POST['wpecr']['country'])) {
-					$data .= '<option value="'.$country['value'].'" selected="selected">'.$country['name'].'</option>';
-				}else if(isset($_POST['wpecr']['country']) && $country['value']==$_POST['wpecr']['country']) {
-					$data .= '<option value="'.$country['value'].'" selected="selected">'.$country['name'].'</option>';
-				}else{
-					$data .= '<option value="'.$country['value'].'">'.$country['name'].'</option>';
-				}
+					if ( $country['value'] == $locale_lang && ! isset( $_POST['wpecr']['country'] ) ) {
+						$data .= '<option value="' . $country['value'] . '" selected="selected">' . $country['name'] . '</option>';
+					} else if ( isset( $_POST['wpecr']['country'] ) && $country['value'] == $_POST['wpecr']['country'] ) {
+						$data .= '<option value="' . $country['value'] . '" selected="selected">' . $country['name'] . '</option>';
+					} else {
+						$data .= '<option value="' . $country['value'] . '">' . $country['name'] . '</option>';
+					}
+
 				endforeach;
 				$data .= '	</select>
 		</p>	

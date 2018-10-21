@@ -324,9 +324,9 @@ class Event_Registration_Public {
 		$message = $page_message = sprintf( __( 'Thank you %1$s, <br/><br/> your registration was successful.', 'the-events-calendar-extension-registration' ), $to );
 
 		$message .= '<br/><br/>'. $to ;
-		if (!empty ($_POST['wpecr']['company'])){
-			$message .= '<br/>'. $_POST['wpecr']['company'];
-		}
+	    if ( ! empty ( $_POST['wpecr']['company'] ) ) {
+		    $message .= '<br/>' . $_POST['wpecr']['company'];
+	    }
 		$message .= '<br/>'. $_POST['wpecr']['address'];
 		$message .= '<br/>'. $_POST['wpecr']['country'].' '.$_POST['wpecr']['postcode'].' '.$_POST['wpecr']['city'];
 		$message .= '<br/><br/>'. $_POST['wpecr']['phone'];
