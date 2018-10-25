@@ -20,7 +20,7 @@ class Event_Registration_Admin {
 	 *
 	 * @since    1.0.0
 	 * @access   private
-	 * @var      string    $plugin_name    The ID of this plugin.
+	 * @var      string $plugin_name The ID of this plugin.
 	 */
 	private $plugin_name;
 
@@ -29,7 +29,7 @@ class Event_Registration_Admin {
 	 *
 	 * @since    1.0.0
 	 * @access   private
-	 * @var      string    $version    The current version of this plugin.
+	 * @var      string $version The current version of this plugin.
 	 */
 	private $version;
 
@@ -37,8 +37,9 @@ class Event_Registration_Admin {
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @param      string    $plugin_name       The name of this plugin.
-	 * @param      string    $version    The version of this plugin.
+	 *
+	 * @param      string $plugin_name The name of this plugin.
+	 * @param      string $version The version of this plugin.
 	 */
 	protected $plugin_slug = 'wpecr_';
 
@@ -48,11 +49,11 @@ class Event_Registration_Admin {
 	 * @since    1.0.0
 	 *
 	 * @var      object
-	 */	
+	 */
 	public function __construct( $plugin_name, $version ) {
 
 		$this->plugin_name = $plugin_name;
-		$this->version = $version;
+		$this->version     = $version;
 
 	}
 
@@ -110,14 +111,20 @@ class Event_Registration_Admin {
 	 */
 	public function add_plugin_admin_menu() {
 
-		$page = add_menu_page( __( 'Event Registration', 'the-events-calendar-extension-registration' ), __( 'Event Registration', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options');
+		$page = add_menu_page( __( 'Event Registration', 'the-events-calendar-extension-registration' ), __( 'Event Registration', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options' );
 
-		add_submenu_page( 'wpecr_options', __( 'Registrations', 'the-events-calendar-extension-registration' ), __( 'Registrations', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options', array( $this, 'signupsheet_display' ) );
+		add_submenu_page( 'wpecr_options', __( 'Registrations', 'the-events-calendar-extension-registration' ), __( 'Registrations', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options', array(
+			$this,
+			'signupsheet_display'
+		) );
 
-		add_submenu_page( 'wpecr_options', __( 'Settings', 'the-events-calendar-extension-registration' ), __( 'Settings', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options_page', array( $this, 'wpecr_options_page' ) );
+		add_submenu_page( 'wpecr_options', __( 'Settings', 'the-events-calendar-extension-registration' ), __( 'Settings', 'the-events-calendar-extension-registration' ), 'manage_options', 'wpecr_options_page', array(
+			$this,
+			'wpecr_options_page'
+		) );
 
 		do_action( 'wpecr_after_menu' );
-		
+
 	}
 
 	/**
@@ -126,7 +133,7 @@ class Event_Registration_Admin {
 	 * @since    1.0.0
 	 */
 	public function wpecr_options_page() {
-		$options = maybe_unserialize( get_option( $this->plugin_slug.'options' ) );
+		$options = maybe_unserialize( get_option( $this->plugin_slug . 'options' ) );
 		//echo '<pre>' . print_r( $options, true ) . '</pre>';
 
 		include_once( plugin_dir_path( __FILE__ ) . '/partials/event-registration-admin-display.php' );
@@ -138,13 +145,15 @@ class Event_Registration_Admin {
 	 * @since    1.0.0
 	 */
 	public function save_options() {
-		if( empty( $_POST['options'] ) ) return false;
+		if ( empty( $_POST['options'] ) ) {
+			return false;
+		}
 		$options = $_POST['options'];
-		update_option( $this->plugin_slug.'options', maybe_serialize( $options ) );
-		
-		$url =  $_POST['_wp_http_referer'];
+		update_option( $this->plugin_slug . 'options', maybe_serialize( $options ) );
+
+		$url = $_POST['_wp_http_referer'];
 		wp_safe_redirect( $url );
-    exit;
+		exit;
 	}
 
 
@@ -152,10 +161,10 @@ class Event_Registration_Admin {
 	 * show registration page under settings
 	 *
 	 * @since    1.0.3
-	 */	
+	 */
 	public function signupsheet_display() {
 		include_once( plugin_dir_path( __FILE__ ) . '/partials/signupsheet-display.php' );
-	}	
+	}
 
 
 }

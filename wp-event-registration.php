@@ -15,7 +15,7 @@
  * Author URI:  http://wordpress.e-colori.com
  * Text Domain: the-events-calendar-extension-registration
  * Domain Path: /languages
- * License:     GPL-2.0+	
+ * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
@@ -53,15 +53,16 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-event-registration.php';
 
 
 /**
-* Add settings link on plugin page
-*
-* @since    1.0.0
-*/
+ * Add settings link on plugin page
+ *
+ * @since    1.0.0
+ */
 
 function plugin_settings_link( $links ) {
-	$settings_link = '<a href="options-general.php?page=wpecr_options">'. __( 'Settings', 'the-events-calendar-extension-registration' ) .'</a>'; 
+	$settings_link = '<a href="options-general.php?page=wpecr_options">' . __( 'Settings', 'the-events-calendar-extension-registration' ) . '</a>';
 	array_unshift( $links, $settings_link );
-	return $links; 
+
+	return $links;
 }
 
 
@@ -76,11 +77,10 @@ function plugin_settings_link( $links ) {
  */
 
 
-
 function run_event_registration() {
 
 	$plugin = new Event_Registration();
-	add_action('plugin_action_links_' . plugin_basename(__FILE__), 'plugin_settings_link');
+	add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'plugin_settings_link' );
 	$plugin->run();
 }
 

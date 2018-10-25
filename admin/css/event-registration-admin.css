@@ -9,31 +9,31 @@
  * @subpackage /admin/css
  */
 
-
 /*-----------------------------------------------------------------------------------*/
 /*  General
 /*-----------------------------------------------------------------------------------*/
 
- .wpecr_wrapper {
- 	display: flex;
- 	justify-content: space-between;
- 	margin: 10px 20px 0 2px;
- }
+.wpecr_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 0 2px;
+}
 
- .column-left {
- 	min-width: 300px;
- }
+.column-left {
+    min-width: 300px;
+}
 
- .column-right {
- 	max-width: 300px;
- 	padding-left: 4em;
- }
+.column-right {
+    max-width: 300px;
+    padding-left: 4em;
+}
 
- .wpecr_box {
- 	border: 1px solid #56b045;
- 	padding: 1em;
- }
- #wpecr_e-colori {
- 	margin-top: -1em;
- 	margin-left: -5px;
- }
+.wpecr_box {
+    border: 1px solid #56b045;
+    padding: 1em;
+}
+
+#wpecr_e-colori {
+    margin-top: -1em;
+    margin-left: -5px;
+}

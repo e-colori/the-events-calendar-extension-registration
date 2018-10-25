@@ -22,7 +22,7 @@ class Event_Registration_i18n {
 	 *
 	 * @since    1.0.0
 	 * @access   private
-	 * @var      string    $domain    The domain identifier for this plugin.
+	 * @var      string $domain The domain identifier for this plugin.
 	 */
 	private $domain = 'the-events-calendar-extension-registration'; //was 'wpecr' until Version: 1.4
 
@@ -45,7 +45,8 @@ class Event_Registration_i18n {
 	 * Set the domain equal to that of the specified domain.
 	 *
 	 * @since    1.0.0
-	 * @param    string    $domain    The domain that represents the locale of this plugin.
+	 *
+	 * @param    string $domain The domain that represents the locale of this plugin.
 	 */
 	public function set_domain( $domain ) {
 		$this->domain = $domain;

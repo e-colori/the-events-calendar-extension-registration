@@ -12,7 +12,6 @@
  */
 
 
-
 class Event_Registration_Deactivator {
 
 	/**

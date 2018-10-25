@@ -13,45 +13,46 @@
 /*  General
 /*-----------------------------------------------------------------------------------*/
 
-
 .smaller {
-    font-size: 80% !important; 
+    font-size: 80% !important;
 }
-#wpecr_support{
+
+#wpecr_support {
     margin-top: 1em;
 }
-
 
 /*-----------------------------------------------------------------------------------*/
 /*  registration form
 /*-----------------------------------------------------------------------------------*/
-
 
 .wpecr_registration_form label, .wpecr_registration_form label + a {
     vertical-align: middle;
     display: inline-block;
     cursor: pointer;
     padding-right: 1em;
-   /* min-width: 110px; */
+    /* min-width: 110px; */
 }
 
 .wpecr_registration_form .label_checkbox {
     width: auto;
     float: none;
     text-align: left;
-    vertical-align: top;   
+    vertical-align: top;
 }
+
 #wpecr_adr {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /*grid-auto-columns: 1fr 2em 1fr;*/
     grid-column-gap: 2em;
 }
 
 #wpecr_1_adr {
 }
+
 #wpecr_2_adr {
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	Media Queries for Responsiveness
 /*-----------------------------------------------------------------------------------*/
@@ -61,7 +62,6 @@
         display: block;
     }
 }
-
 
 /*-----------------------------------------------------------------------------------*/
 /*  registration button

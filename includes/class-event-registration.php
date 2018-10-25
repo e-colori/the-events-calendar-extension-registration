@@ -29,7 +29,7 @@ class Event_Registration {
 	 *
 	 * @since    1.0.0
 	 * @access   protected
-	 * @var      Event_Registration_Loader    $loader    Maintains and registers all hooks for the plugin.
+	 * @var      Event_Registration_Loader $loader Maintains and registers all hooks for the plugin.
 	 */
 	protected $loader;
 
@@ -38,7 +38,7 @@ class Event_Registration {
 	 *
 	 * @since    1.0.0
 	 * @access   protected
-	 * @var      string    $event_registration    The string used to uniquely identify this plugin.
+	 * @var      string $event_registration The string used to uniquely identify this plugin.
 	 */
 	protected $event_registration;
 
@@ -47,7 +47,7 @@ class Event_Registration {
 	 *
 	 * @since    1.0.0
 	 * @access   protected
-	 * @var      string    $version    The current version of the plugin.
+	 * @var      string $version The current version of the plugin.
 	 */
 	protected $version;
 
@@ -63,8 +63,8 @@ class Event_Registration {
 	public function __construct() {
 
 		$this->event_registration = 'the-events-calendar-extension-registration'; //was 'wpecr' until Version: 1.4
-		$this->version = '1.0.0';
-		
+		$this->version            = '1.0.0';
+
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
@@ -148,9 +148,9 @@ class Event_Registration {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		//$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
-		$this->loader->add_action('admin_menu', $plugin_admin, 'add_plugin_admin_menu');
-		$this->loader->add_action('admin_post_save_options', $plugin_admin, 'save_options');
-		
+		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_plugin_admin_menu' );
+		$this->loader->add_action( 'admin_post_save_options', $plugin_admin, 'save_options' );
+
 		//$this->loader->add_action('wp_mail_from', $plugin_admin, 'wp_email_from');
 		//$this->loader->add_action('wp_mail_from_name', $plugin_admin, 'wp_email_from_name');
 
@@ -170,7 +170,7 @@ class Event_Registration {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		//$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
-		$this->loader->add_action('init', $plugin_public, 'add_shortcodes');
+		$this->loader->add_action( 'init', $plugin_public, 'add_shortcodes' );
 
 	}
 
